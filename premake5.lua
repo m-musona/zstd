@@ -8,12 +8,12 @@ project "zstd"
 
     defines { "ZSTD_STATIC_LINKING_ONLY" }
 
-    includedirs { "vendor/zstd/lib" }
+    includedirs { "lib" }
 
     files {
-        "vendor/zstd/lib/common/**.c",
-        "vendor/zstd/lib/compress/**.c",
-        "vendor/zstd/lib/decompress/**.c",
+        "lib/common/**.c",
+        "lib/compress/**.c",
+        "lib/decompress/**.c",
     }
 
     filter "system:windows"
