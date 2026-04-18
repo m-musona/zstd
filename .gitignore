@@ -62,3 +62,13 @@ compile_commands.json
 .clangd
 perf.data
 perf.data.old
+
+**/bin/
+**/bin-int/
+Intermediates
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+bin/
+bin-int/
